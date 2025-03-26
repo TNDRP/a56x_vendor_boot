@@ -1,0 +1,364 @@
+tuihw-inf.ko: tzdev.ko
+usb_notify_layer.ko:
+phy-exynos-usbdrd-super.ko: snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+ehld.ko: exynos-getcpustate.ko hardlockup-watchdog.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+exynos-pd_el3.ko: exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko dss.ko exynos-pmu-if.ko
+repeater_ptn3222_module.ko: usb_repeater_module.ko sec_repeater_cb.ko
+exynos-usb-audio-offloading.ko: xhci-sideband.ko phy-exynos-usbdrd-super.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+s2p_adc.ko:
+exynos-adv-tracer-s2d.ko: exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+cpif_cma_mem.ko: cpif_memlogger.ko memlogger.ko
+exynos-ssld.ko: hardlockup-watchdog.ko
+cpif_memlogger.ko: memlogger.ko
+exynos-itmon-v2.ko: dss.ko exynos-pmu-if.ko
+smfc.ko: exynos-bts.ko exynos-btsops8855.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+hts.ko:
+s2m_pdic_notifier_module.ko: pdic_notifier_module.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko sec_class.ko
+nhc_ipv6.ko: 6lowpan.ko
+sec_hard_reset_hook.ko: sec_key_notifier.ko
+dw_mmc-pltfm-samsung.ko: dw_mmc-samsung.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+ppp_deflate.ko: ppp_generic.ko slhc.ko
+sb-core.ko: sec_class.ko
+hdm.ko: sec_class.ko
+abc_hub.ko: abc.ko sec_class.ko
+s2mpu16_regulator.ko: s2p_regulator.ko pmic_class.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko
+nhc_udp.ko: 6lowpan.ko
+pablo-smc.ko:
+pps_core.ko:
+sec_pm_regulator.ko: sec_class.ko
+irq-gic-v3-vh.ko:
+snd-soc-samsung-slif.ko: snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+sec_pm_cpupm.ko: common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko sec_class.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+pablo-hws.ko: pablo-libs.ko dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko freq-qos-tracer.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+dev_ril_bridge.ko:
+muic_s2mf301.ko: muic_platform.ko mfd_s2mf301.ko usb_typec_manager.ko vbus_notifier.ko pdic_notifier_module.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko abc.ko sec_class.ko
+usbserial.ko:
+snvm.ko:
+nhc_hop.ko: 6lowpan.ko
+exynos_tty.ko: exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+slhc.ko:
+nu2111a_charger.ko: sec-battery.ko usb_typec_manager.ko vbus_notifier.ko pdic_notifier_module.ko sec_debug_extra_info.ko sec_debug_base_early.ko sec_debug_dprt.ko sec_pd.ko sb-core.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko abc.ko sec_class.ko dss.ko exynos-pmu-if.ko
+exynos-dsu-profiler.ko: exynos-main-profiler.ko exynos-mifgov.ko sgpu-profiler.ko sgpu-profiler-governor.ko exynos-profiler-fn.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+exynos-tzasc.ko: dss.ko exynos-pmu-if.ko
+open-dice.ko:
+sec_debug_reset_reason.ko: sec_debug_extra_info.ko sec_debug_base_early.ko sec_debug_dprt.ko dss.ko exynos-pmu-if.ko
+exynos-pd-dbg.ko:
+scsc_wlan.ko: cfg80211.ko rfkill.ko scsc_wifilogger.ko scsc_mx.ko scsc_platform_mif.ko scsc_logring.ko scsc_log_collection.ko freq-qos-tracer.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko memlogger.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+exynos-mifgov.ko: exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko
+sec_pd.ko:
+ftdi_sio.ko: usbserial.ko
+is-cis-3lc.ko: fimc-is.ko samsung_dma_heap.ko samsung-secure-iova.ko pablo-hws.ko pablo-icpu.ko votf.ko pablo-libs.ko dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko pablo-smc.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+blk-sec-wb.ko: ufs-exynos-core.ko blk-sec-common.ko exynos_devfreq.ko exynos-pd.ko phy-exynos-usbdrd-super.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko sec_class.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+exynos-msc-dsu.ko: exynos-mpam.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+sec_debug_dprm.ko: sec_debug_base_early.ko sec_debug_dprt.ko dss.ko exynos-pmu-if.ko
+cdc_ncm.ko: cdc_ether.ko usbnet.ko mii.ko
+ppp_generic.ko: slhc.ko
+dio8018.ko: sec_class.ko
+snd-soc-samsung-abox.ko: nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+can-bcm.ko: can.ko
+s2p_regulator.ko: pmic_class.ko
+sec_debug_dprt.ko:
+samsung-iommu-group-v9.ko:
+s2p_mfd.ko: pmic_class.ko dss.ko exynos-pmu-if.ko
+tzdev.ko:
+dss.ko: exynos-pmu-if.ko
+memlogger.ko:
+snd-soc-samsung-abox-sync-aw.ko: snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+sec_debug_dtask.ko: dss.ko exynos-pmu-if.ko
+sgpu-profiler.ko: sgpu-profiler-governor.ko freq-qos-tracer.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+pinctrl-samsung-ext.ko: exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+pdic_notifier_module.ko: usb_notify_layer.ko sec_switch_class.ko sec_class.ko
+sgpu-profiler-governor.ko:
+sec_audio_exynos.ko:
+s2mpu15_mfd.ko: s2p_mfd.ko pmic_class.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko
+pmic_class.ko:
+sdp.ko: dev_ril_bridge.ko
+s2mpu15_rtc.ko: sec_pon_alarm.ko s2p_rtc.ko s2p_mfd.ko pmic_class.ko dss.ko exynos-pmu-if.ko
+exynos-pm.ko: phy-exynos-usbdrd-super.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+hidp.ko: bluetooth.ko rfkill.ko
+exynos-esca-dm.ko: exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+sec_mm.ko: samsung_dma_heap.ko samsung-secure-iova.ko memlogger.ko
+gpu_cooling.ko: exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+sec_debug_softdog.ko: sec_debug_stacktrace.ko
+rtl8150.ko:
+s2p_rtc.ko: s2p_mfd.ko pmic_class.ko dss.ko exynos-pmu-if.ko
+l2tp_core.ko:
+softdog.ko: sec_debug_softdog.ko sec_debug_stacktrace.ko
+exynos_mct_v3.ko: hardlockup-watchdog.ko dss.ko exynos-pmu-if.ko
+pdic_s2mf301.ko: s2mf301_pmeter.ko mfd_s2mf301.ko s2m_pdic_notifier_module.ko pdic_notifier_module.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko sec_class.ko
+exynos-s2i.ko: flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+sgpu.ko: xperf.ko exynos_devfreq.ko exynos-afm.ko s2mpu15_regulator.ko s2mpu16_regulator.ko s2p_regulator.ko exynos-ufcc.ko gpu_cooling.ko drm_ttm_helper.ko gpu-sched.ko pmic_class.ko exynos-pd.ko phy-exynos-usbdrd-super.ko sgpu-profiler.ko sgpu-profiler-governor.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+exynos_esca.ko: exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko
+sec-auth-sle956681.ko:
+cpif_page.ko: cpif_memlogger.ko memlogger.ko
+hook.ko:
+fimc-is.ko: samsung_dma_heap.ko samsung-secure-iova.ko pablo-hws.ko pablo-icpu.ko votf.ko pablo-libs.ko dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko pablo-smc.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+sec_pon_alarm.ko:
+exynos-cpuhp.ko: dss.ko exynos-pmu-if.ko
+votf.ko: pablo-libs.ko dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko freq-qos-tracer.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+lealt-gov.ko: lealt-mon.ko exynos-cpufreq.ko exynos-wow.ko exynos_devfreq.ko exynos-pd.ko phy-exynos-usbdrd-super.ko exynos-mifgov.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+s2mf301_pmeter.ko: mfd_s2mf301.ko usb_notify_layer.ko
+exynos-ecc-handler.ko: dss.ko exynos-pmu-if.ko
+exynos-s2mpu.ko: exynos-pm-qos.ko exynos-pkvm-module.ko dss.ko exynos-pmu-if.ko
+r8152.ko: mii.ko
+ngksm.ko:
+s2mpu16_mfd.ko: s2p_mfd.ko pmic_class.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko
+sec_panel_notifier_v2.ko:
+sec_key_notifier.ko:
+s2mpu15_pinctrl.ko: s2p_pinctrl.ko s2p_mfd.ko pmic_class.ko dss.ko exynos-pmu-if.ko
+is-vendor-interface.ko: leds-s2mf301.ko sec_debug_mode.ko mfd_s2mf301.ko s2m_pdic_notifier_module.ko dev_ril_bridge.ko fimc-is.ko samsung_dma_heap.ko samsung-secure-iova.ko pablo-hws.ko pablo-icpu.ko votf.ko pablo-libs.ko dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko pablo-smc.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko pdic_notifier_module.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko abc.ko sec_class.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+nhc_routing.ko: 6lowpan.ko
+top_s2mf301.ko: mfd_s2mf301.ko usb_notify_layer.ko
+usb_f_rndis_mp.ko:
+vbus_notifier.ko:
+sec_switch_class.ko:
+bluetooth.ko: rfkill.ko
+exynos-chipid_v2.ko:
+gnss_mbox.ko:
+muic_platform.ko: usb_typec_manager.ko vbus_notifier.ko pdic_notifier_module.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko abc.ko sec_class.ko
+sec_debug_sched_info.ko: sec_debug_stacktrace.ko dss.ko exynos-pmu-if.ko
+mcd-panel.ko: sec_input_notifier.ko sec_panel_notifier_v2.ko sec_debug_mode.ko abc.ko sec_class.ko
+shub.ko: sensor_core.ko sec_debug_mode.ko nanohub.ko imgloader.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko memlogger.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+exynos-btsops8855.ko:
+samsung_dma_heap.ko: samsung-secure-iova.ko memlogger.ko
+custos.ko: psp.ko imgloader.ko exynos-itmon-v2.ko memlogger.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko dss.ko exynos-pmu-if.ko
+exynos-getcpustate.ko: exynos-pmu-if.ko
+nhc_mobility.ko: 6lowpan.ko
+exyswd-rng.ko:
+exynos-mcinfo.ko: dss.ko exynos-pmu-if.ko
+asix.ko: usbnet.ko mii.ko
+sec_usb_hook.ko: dwc3-exynos-usb.ko sec_usb_cb.ko exynos-usb-audio-offloading.ko xhci-sideband.ko usb_f_ss_mon_gadget.ko phy-exynos-usbdrd-super.ko usb_typec_manager.ko vbus_notifier.ko pdic_notifier_module.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko abc.ko sec_class.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+direct_dm.ko: usb_f_dm.ko mcu_ipc.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko dss.ko exynos-pmu-if.ko
+dw_mmc-exynos-samsung.ko: dw_mmc-pltfm-samsung.ko dw_mmc-samsung.ko memlogger.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+virtio_blk.ko:
+exynos-coresight.ko: exynos-getcpustate.ko hardlockup-watchdog.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+blk-sec-stats.ko: blk-sec-common.ko sec_class.ko
+can-dev.ko:
+rfkill.ko:
+sec_debug_test.ko: sec_debug.ko sec_reboot.ko sec_debug_mode.ko sec_debug_extra_info.ko sec_debug_base_early.ko sec_debug_dprt.ko abc.ko sec_class.ko hardlockup-watchdog.ko exynos-pm-qos.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko
+ptp.ko: pps_core.ko
+s2dos05-regulator.ko: pmic_class.ko
+8021q.ko:
+s2mpb03.ko: pmic_class.ko
+exynos-profiler-fn.ko: exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+ppp_mppe.ko: libarc4.ko ppp_generic.ko slhc.ko
+is-cis-imx823.ko: fimc-is.ko samsung_dma_heap.ko samsung-secure-iova.ko pablo-hws.ko pablo-icpu.ko votf.ko pablo-libs.ko dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko pablo-smc.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+is-cis-imx906.ko: fimc-is.ko samsung_dma_heap.ko samsung-secure-iova.ko pablo-hws.ko pablo-icpu.ko votf.ko pablo-libs.ko dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko pablo-smc.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+exynos-pmu-if.ko:
+mcu_ipc.ko: cpif_memlogger.ko memlogger.ko
+dwc3-exynos-usb.ko: sec_usb_cb.ko exynos-usb-audio-offloading.ko xhci-sideband.ko phy-exynos-usbdrd-super.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+ect_parser.ko:
+sec_reboot.ko: abc.ko sec_class.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko
+psp.ko: exynos-itmon-v2.ko memlogger.ko dss.ko exynos-pmu-if.ko
+phy-exynos-mipi.ko:
+samsung-pdma.ko:
+exynos_devfreq.ko: exynos-pd.ko phy-exynos-usbdrd-super.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+exynos-adv-tracer.ko: dss.ko exynos-pmu-if.ko
+npu.ko: exynos_devfreq.ko exynos-pd.ko phy-exynos-usbdrd-super.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+sec_debug_slab_info.ko:
+exynos-pkvm-module.ko:
+is-flash-s2mf301.ko: fimc-is.ko samsung_dma_heap.ko samsung-secure-iova.ko pablo-hws.ko pablo-icpu.ko votf.ko pablo-libs.ko dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko pablo-smc.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+s2mpu15_key.ko: s2p_key.ko
+twofish_common.ko:
+cctrng.ko:
+sec-direct-charger.ko: sec-battery.ko usb_typec_manager.ko vbus_notifier.ko pdic_notifier_module.ko sec_debug_extra_info.ko sec_debug_base_early.ko sec_debug_dprt.ko sec_pd.ko sb-core.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko abc.ko sec_class.ko dss.ko exynos-pmu-if.ko
+exynos-sdm.ko: dss.ko exynos-pmu-if.ko
+blk-sec-common.ko: sec_class.ko
+snd-soc-smartpa-aw882xx.ko: sec_audio_sysfs.ko snd-soc-samsung-abox-sync-aw.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+drm_ttm_helper.ko:
+exynos8855_audio.ko: snd-soc-smartpa-aw882xx.ko sec_audio_sysfs.ko snd-soc-samsung-abox-sync-aw.ko snd_debug_proc.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko abc.ko sec_class.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+s2p_pinctrl.ko: s2p_mfd.ko pmic_class.ko dss.ko exynos-pmu-if.ko
+exynos-pm-qos.ko:
+i2c-exynos5-ext.ko: exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+sec_audio_sysfs.ko: sec_audio_exynos.ko
+exynos-afm.ko: s2mpu15_regulator.ko s2mpu16_regulator.ko s2p_regulator.ko pmic_class.ko freq-qos-tracer.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko
+scsc_wifilogger.ko: scsc_mx.ko scsc_platform_mif.ko scsc_logring.ko scsc_log_collection.ko freq-qos-tracer.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko memlogger.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+fingerprint.ko: fingerprint_sysfs.ko exynos-pm-qos.ko
+exynos-drm.ko: exynos_devfreq.ko exynos-pd.ko phy-exynos-usbdrd-super.ko exynos-main-profiler.ko exynos-mifgov.ko sgpu-profiler.ko sgpu-profiler-governor.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+nhc_fragment.ko: 6lowpan.ko
+6lowpan.ko:
+cdc_eem.ko: usbnet.ko mii.ko
+9pnet_fd.ko: 9pnet.ko
+flexpmu_dbg.ko: exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko
+sec_debug_hardlockup_info.ko: ehld.ko exynos-getcpustate.ko sec_debug_extra_info.ko sec_debug_base_early.ko sec_debug_dprt.ko hardlockup-watchdog.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+virtio_console.ko:
+nanohub.ko: imgloader.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko memlogger.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+sec_vibrator_inputff_module.ko: usb_notify_layer.ko abc.ko sec_class.ko
+leds-s2mf301.ko: mfd_s2mf301.ko s2m_pdic_notifier_module.ko fimc-is.ko samsung_dma_heap.ko samsung-secure-iova.ko pablo-hws.ko pablo-icpu.ko votf.ko pablo-libs.ko dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko pablo-smc.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko pdic_notifier_module.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko sec_class.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+exynos-ufcc.ko: freq-qos-tracer.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+usb_typec_manager.ko: vbus_notifier.ko pdic_notifier_module.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko abc.ko sec_class.ko
+sec_debug_base_early.ko: sec_debug_dprt.ko dss.ko exynos-pmu-if.ko
+exynos_thermal_v2.ko: freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+mac802154.ko: ieee802154.ko
+s3c2410_wdt_ext.ko: exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+cdc_ether.ko: usbnet.ko mii.ko
+ufs-exynos-core.ko: exynos_devfreq.ko exynos-pd.ko phy-exynos-usbdrd-super.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+usdm-panel-oled-common.ko: mcd-panel.ko sec_input_notifier.ko sec_panel_notifier_v2.ko sec_debug_mode.ko abc.ko sec_class.ko
+lego.ko:
+sec_usb_cb.ko:
+usbnet.ko: mii.ko
+mcd-panel-samsung-drv.ko: mcd-panel-samsung-helper.ko exynos-drm.ko mcd-panel.ko sec_input_notifier.ko sec_panel_notifier_v2.ko sec_debug_mode.ko exynos_devfreq.ko exynos-pd.ko phy-exynos-usbdrd-super.ko exynos-main-profiler.ko exynos-mifgov.ko sgpu-profiler.ko sgpu-profiler-governor.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko abc.ko sec_class.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+libarc4.ko:
+usb_f_ss_mon_gadget.ko: usb_typec_manager.ko vbus_notifier.ko pdic_notifier_module.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko abc.ko sec_class.ko
+usb_notifier.ko: dwc3-exynos-usb.ko sec_usb_cb.ko exynos-usb-audio-offloading.ko xhci-sideband.ko phy-exynos-usbdrd-super.ko usb_typec_manager.ko vbus_notifier.ko pdic_notifier_module.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko abc.ko sec_class.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+usb_f_conn_gadget.ko:
+vmw_vsock_virtio_transport.ko:
+common_muic.ko: if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko sec_class.ko
+r8153_ecm.ko: r8152.ko cdc_ether.ko usbnet.ko mii.ko
+nhc_dest.ko: 6lowpan.ko
+btqca.ko: bluetooth.ko rfkill.ko
+exynos-cpu-profiler.ko: exynos-main-profiler.ko exynos-mifgov.ko sgpu-profiler.ko sgpu-profiler-governor.ko exynos-profiler-fn.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+mcd-panel-samsung-helper.ko: exynos-drm.ko mcd-panel.ko sec_input_notifier.ko sec_panel_notifier_v2.ko sec_debug_mode.ko exynos_devfreq.ko exynos-pd.ko phy-exynos-usbdrd-super.ko exynos-main-profiler.ko exynos-mifgov.ko sgpu-profiler.ko sgpu-profiler-governor.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko abc.ko sec_class.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+mfd_s2mf301.ko: usb_notify_layer.ko
+exynos_mpam_policy.ko: exynos-mpam.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+ieee802154_socket.ko: ieee802154.ko
+snd-soc-samsung-vts-mailbox.ko:
+ems.ko: exynos-dsufreq.ko exynos-esca-dm.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+hci_uart.ko: btqca.ko btbcm.ko bluetooth.ko rfkill.ko
+cpif.ko: exynos-cpif-iommu_v9.ko cpif_page.ko cpif_cma_mem.ko direct_dm.ko usb_f_dm.ko mcu_ipc.ko clo.ko hook.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko freq-qos-tracer.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+ssg.ko: blk-sec-wb.ko ufs-exynos-core.ko blk-sec-stats.ko blk-sec-common.ko exynos_devfreq.ko exynos-pd.ko phy-exynos-usbdrd-super.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko sec_class.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+aqc111.ko: usbnet.ko mii.ko
+kheaders.ko:
+usbmon.ko:
+sec_class.ko:
+scsc_platform_mif.ko: scsc_logring.ko scsc_log_collection.ko freq-qos-tracer.ko exynos-itmon-v2.ko memlogger.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+lealt-mon.ko: ems.ko exynos-dsufreq.ko exynos-esca-dm.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+exynos-el2.ko: exynos-pkvm-module.ko dss.ko exynos-pmu-if.ko
+sb_wireless.ko: sb-core.ko sec_class.ko
+sensor_core.ko:
+s2p_key.ko:
+sec_repeater_cb.ko:
+sysevent_notif.ko:
+sec_debug_wdd_info.ko: s3c2410_wdt_ext.ko sec_debug_base_early.ko sec_debug_dprt.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+mcd-panel-ana6710_a56x.ko: usdm-panel-oled-common.ko mcd-panel.ko sec_input_notifier.ko sec_panel_notifier_v2.ko sec_debug_mode.ko abc.ko sec_class.ko
+pptp.ko: pppox.ko ppp_generic.ko slhc.ko
+phy-exynos-mipi-dsim.ko: exynos-pmu-if.ko
+tipc.ko:
+ieee802154.ko:
+scsc_logring.ko: scsc_log_collection.ko memlogger.ko
+fingerprint_sysfs.ko:
+zsmalloc.ko:
+exynos-bcm.ko: exynos-pd.ko phy-exynos-usbdrd-super.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+mmc-sec-driver.ko: dw_mmc-exynos-samsung.ko dw_mmc-pltfm-samsung.ko dw_mmc-samsung.ko memlogger.ko sec_class.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+sec_lvstest.ko: if_cb_manager.ko
+imgloader.ko: exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko dss.ko exynos-pmu-if.ko
+kzt.ko:
+scsc_mx.ko: scsc_platform_mif.ko scsc_logring.ko scsc_log_collection.ko freq-qos-tracer.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko memlogger.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+sec_debug_hw_param.ko: sec_debug_extra_info.ko sec_debug_base_early.ko sec_debug_dprt.ko sec_class.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+can.ko:
+sec_pm_debug.ko: s2p_regulator.ko pmic_class.ko sec_class.ko
+snd-soc-samsung-vts.ko: snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko memlogger.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko dss.ko exynos-pmu-if.ko
+clk_exynos.ko: cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+usb_f_dm.ko:
+virtio_pci.ko: virtio_pci_modern_dev.ko
+pwm-exynos.ko: exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+spidev.ko:
+exynos-wow.ko: exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko
+mcd-panel-s6e3fc5_a56x.ko: usdm-panel-oled-common.ko mcd-panel.ko sec_input_notifier.ko sec_panel_notifier_v2.ko sec_debug_mode.ko abc.ko sec_class.ko
+cfg80211.ko: rfkill.ko
+is-actuator-ak737x.ko: fimc-is.ko samsung_dma_heap.ko samsung-secure-iova.ko pablo-hws.ko pablo-icpu.ko votf.ko pablo-libs.ko dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko pablo-smc.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+exynos-pd.ko: phy-exynos-usbdrd-super.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+sec_input_notifier.ko:
+gpu-sched.ko:
+clo.ko:
+macsec.ko:
+goodix_ts_berlin.ko: i2c-exynos5-ext.ko tuihw-inf.ko tzdev.ko sec_common_fn.ko mcd-panel.ko sec_input_notifier.ko sec_panel_notifier_v2.ko sec_debug_mode.ko usb_typec_manager.ko vbus_notifier.ko pdic_notifier_module.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko abc.ko sec_class.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+exynos-mif-profiler.ko: exynos-wow.ko exynos_devfreq.ko exynos-pd.ko phy-exynos-usbdrd-super.ko exynos-main-profiler.ko exynos-mifgov.ko sgpu-profiler.ko sgpu-profiler-governor.ko exynos-profiler-fn.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+usb_repeater_module.ko: sec_repeater_cb.ko
+debug-snapshot-debug-kinfo.ko:
+sec_debug_sched_report.ko: dss.ko exynos-pmu-if.ko
+scsi_srpmb.ko: ufs-exynos-core.ko exynos_devfreq.ko exynos-pd.ko phy-exynos-usbdrd-super.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+sec_debug_stacktrace.ko:
+xhci-sideband.ko:
+sec_debug_kerror_report.ko:
+exynos-seh.ko:
+snd-soc-samsung-abox-gic.ko:
+btbcm.ko: bluetooth.ko rfkill.ko
+exynos-bts.ko: exynos-btsops8855.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+sec-battery.ko: usb_typec_manager.ko vbus_notifier.ko pdic_notifier_module.ko sec_debug_extra_info.ko sec_debug_base_early.ko sec_debug_dprt.ko sec_pd.ko sb-core.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko abc.ko sec_class.ko dss.ko exynos-pmu-if.ko
+isg5320a.ko: shub.ko sensor_core.ko sec_debug_mode.ko usb_typec_manager.ko vbus_notifier.ko pdic_notifier_module.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko nanohub.ko imgloader.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko memlogger.ko abc.ko sec_class.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+rfcomm.ko: bluetooth.ko rfkill.ko
+exynos-main-profiler.ko: exynos-mifgov.ko sgpu-profiler.ko sgpu-profiler-governor.ko freq-qos-tracer.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+abc.ko: sec_class.ko
+input_booster_lkm.ko: exynos-ufcc.ko freq-qos-tracer.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+gzvm.ko:
+vibrator_vib_info.ko:
+sec_debug_extra_info.ko: sec_debug_base_early.ko sec_debug_dprt.ko dss.ko exynos-pmu-if.ko
+exynos-seclog.ko:
+ieee802154_6lowpan.ko: ieee802154.ko 6lowpan.ko
+freq-qos-tracer.ko:
+sec-auth-ds28e30.ko: sec-auth-sle956681.ko exynos-pm-qos.ko
+shm_ipc.ko: cpif_memlogger.ko memlogger.ko dss.ko exynos-pmu-if.ko
+exynos-mpam.ko: exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+exynos-reboot.ko: exynos-chipid_v2.ko
+gnssif.ko: gnss_mbox.ko exynos-itmon-v2.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+sec_crash_key_user.ko: sec_key_notifier.ko
+sec_pm_tmu.ko: exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko sec_class.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+twofish_generic.ko: twofish_common.ko
+xperf.ko: exynos_devfreq.ko exynos-afm.ko s2mpu15_regulator.ko s2mpu16_regulator.ko s2p_regulator.ko exynos-ufcc.ko pmic_class.ko exynos-pd.ko phy-exynos-usbdrd-super.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+wwan.ko:
+sec_debug_mode.ko:
+exynos-gpu-profiler.ko: exynos-main-profiler.ko exynos-mifgov.ko sgpu-profiler.ko sgpu-profiler-governor.ko exynos-profiler-fn.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+s2mpu15_regulator.ko: s2p_regulator.ko pmic_class.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko
+sec_audio_debug.ko: sec_debug_extra_info.ko sec_debug_base_early.ko sec_debug_dprt.ko sec_audio_exynos.ko dss.ko exynos-pmu-if.ko
+l2tp_ppp.ko: l2tp_core.ko pppox.ko ppp_generic.ko slhc.ko
+exynos_mfc.ko: exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+esca-mfd-bus.ko:
+snd_debug_proc.ko:
+cdc-acm.ko:
+exynos-dsufreq.ko: exynos-esca-dm.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+ax88179_178a.ko: usbnet.ko mii.ko
+if_cb_manager.ko:
+exynos-cpufreq.ko: exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+exynos-cpupm.ko: pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+secmem.ko:
+pablo-libs.ko: dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko freq-qos-tracer.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+9pnet.ko:
+vcan.ko: can-dev.ko
+bsd_comp.ko: ppp_generic.ko slhc.ko
+exynos-pkvm-s2mpu-module.ko: exynos-pkvm-module.ko
+is-cis-gc05a3.ko: fimc-is.ko samsung_dma_heap.ko samsung-secure-iova.ko pablo-hws.ko pablo-icpu.ko votf.ko pablo-libs.ko dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko pablo-smc.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+mx_client_test.ko: scsc_mx.ko scsc_platform_mif.ko scsc_logring.ko scsc_log_collection.ko freq-qos-tracer.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko memlogger.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+cmupmucal.ko: exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+pablo-icpu.ko: pablo-libs.ko dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko freq-qos-tracer.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+samsung_iommu_v9.ko: memlogger.ko
+spi-s3c64xx-ext.ko: samsung-pdma.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+gdc.ko: votf.ko pablo-libs.ko dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko freq-qos-tracer.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+can-raw.ko: can.ko
+s2mpu16_pinctrl.ko: s2p_pinctrl.ko s2p_mfd.ko pmic_class.ko dss.ko exynos-pmu-if.ko
+exynos-usi_v2.ko:
+s2mf301_charger.ko: muic_s2mf301.ko muic_platform.ko mfd_s2mf301.ko sec-battery.ko usb_typec_manager.ko vbus_notifier.ko pdic_notifier_module.ko sec_debug_extra_info.ko sec_debug_base_early.ko sec_debug_dprt.ko sec_pd.ko sb-core.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko abc.ko sec_class.ko dss.ko exynos-pmu-if.ko
+tuihw.ko: tuihw-inf.ko tzdev.ko sec_common_fn.ko exynos-drm.ko mcd-panel.ko sec_input_notifier.ko sec_panel_notifier_v2.ko sec_debug_mode.ko exynos_devfreq.ko exynos-pd.ko phy-exynos-usbdrd-super.ko exynos-main-profiler.ko exynos-mifgov.ko sgpu-profiler.ko sgpu-profiler-governor.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko usb_typec_manager.ko vbus_notifier.ko pdic_notifier_module.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko abc.ko sec_class.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+scaler.ko: exynos-drm.ko exynos_devfreq.ko exynos-pd.ko phy-exynos-usbdrd-super.ko exynos-main-profiler.ko exynos-mifgov.ko sgpu-profiler.ko sgpu-profiler-governor.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+sysevent.ko: sysevent_notif.ko
+ufs-sec-driver.ko: ufs-exynos-core.ko sec_debug_mode.ko exynos_devfreq.ko exynos-pd.ko phy-exynos-usbdrd-super.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko sec_debug_extra_info.ko sec_debug_base_early.ko sec_debug_dprt.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko abc.ko sec_class.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+sec_reloc_gpio.ko:
+pppox.ko: ppp_generic.ko slhc.ko
+dma-buf-container.ko:
+aw8624x_haptic.ko: sec_vibrator_inputff_module.ko usb_notify_layer.ko abc.ko sec_class.ko
+s2mpu15_adc.ko: s2p_adc.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko
+sec_debug.ko: sec_reboot.ko sec_debug_mode.ko sec_debug_base_early.ko sec_debug_dprt.ko abc.ko sec_class.ko hardlockup-watchdog.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko
+sec_thermistor.ko: sec_class.ko
+can-gw.ko: can.ko
+vcpu_stall_detector.ko:
+vendor_zram.ko: sec_mm.ko zsmalloc.ko samsung_dma_heap.ko samsung-secure-iova.ko memlogger.ko
+btsdio.ko: bluetooth.ko rfkill.ko
+diag.ko: tipc.ko
+virtio_balloon.ko:
+virtio_pci_modern_dev.ko:
+nfc.ko: rfkill.ko
+s2mf301_fuelgauge.ko: mfd_s2mf301.ko sec-battery.ko usb_typec_manager.ko vbus_notifier.ko pdic_notifier_module.ko sec_debug_extra_info.ko sec_debug_base_early.ko sec_debug_dprt.ko sec_pd.ko sb-core.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko abc.ko sec_class.ko dss.ko exynos-pmu-if.ko
+nfc_slsi_sec.ko:
+exynos-cpif-iommu_v9.ko:
+is-cis-imx258.ko: fimc-is.ko samsung_dma_heap.ko samsung-secure-iova.ko pablo-hws.ko pablo-icpu.ko votf.ko pablo-libs.ko dma-buf-container.ko exynos-bcm.ko exynos-pd.ko phy-exynos-usbdrd-super.ko pablo-smc.ko exynos_thermal_v2.ko freq-qos-tracer.ko exynos-mcinfo.ko exynos-cpuhp.ko ems.ko exynos-dsufreq.ko exynos-esca-dm.ko snd-soc-samsung-abox.ko nanohub.ko imgloader.ko snd-soc-samsung-vts.ko snd-soc-samsung-vts-mailbox.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko shm_ipc.ko cpif_memlogger.ko memlogger.ko sec_audio_exynos.ko snd-soc-samsung-abox-gic.ko exynos-bts.ko exynos-btsops8855.ko exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko sec_repeater_cb.ko
+samsung-secure-iova.ko:
+slcan.ko: can-dev.ko
+mii.ko:
+scsc_mmap.ko: scsc_mx.ko scsc_platform_mif.ko scsc_logring.ko scsc_log_collection.ko freq-qos-tracer.ko sysevent.ko sysevent_notif.ko exynos-itmon-v2.ko memlogger.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+sec_bootstat.ko: sec_class.ko dss.ko exynos-pmu-if.ko
+drm_display_helper.ko:
+et5917.ko: sec_class.ko
+hardlockup-watchdog.ko:
+dw_mmc-samsung.ko: exynos-cpupm.ko pinctrl-samsung-ext.ko exynos-s2i.ko flexpmu_dbg.ko cmupmucal.ko exynos-adv-tracer.ko exynos-pd_el3.ko exynos-s2mpu.ko exynos-pm-qos.ko exynos-pkvm-module.ko exynos_esca.ko exynos-reboot.ko exynos-chipid_v2.ko dss.ko exynos-pmu-if.ko ect_parser.ko
+sec_common_fn.ko: mcd-panel.ko sec_input_notifier.ko sec_panel_notifier_v2.ko sec_debug_mode.ko usb_typec_manager.ko vbus_notifier.ko pdic_notifier_module.ko common_muic.ko if_cb_manager.ko usb_notify_layer.ko sec_switch_class.ko abc.ko sec_class.ko
+scsc_log_collection.ko:
